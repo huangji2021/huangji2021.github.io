@@ -4,7 +4,7 @@
 
 #layout: home
 
-title: DevOps Guidebook - 📚 React 知识图谱 关于概念、技巧、生态、前沿、源码核心
+title: Study Notes - 📚 Chemistry, Physics, Math, Code
 order: 10
 hero:
   title: Study Notes
