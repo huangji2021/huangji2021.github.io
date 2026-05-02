@@ -43,42 +43,45 @@ title: Home
   <h2>Research</h2>
 
   <p class="lead">
-    I develop and apply computational methods for describing charge transfer,
-    charge separation, and environmental effects in molecular systems.
-    My work aims to make electronic-structure calculations more efficient
-    and applicable to larger molecular systems.
+    My research background spans electrochemistry, theoretical chemistry,
+    and machine learning for quantum chemistry. I am particularly interested
+    in connecting chemical insight, electronic-structure theory, and data-driven
+    modeling to study molecular systems efficiently.
   </p>
 
   <div class="card-grid">
-    <a class="card research-card" href="{{ '/research/rci-lc-dftb/' | relative_url }}">
-      <img src="{{ '/assets/img/research-rci.jpg' | relative_url }}" alt="RCI-LC-DFTB">
+    <a class="card research-card" href="{{ '/research/electrochemistry/' | relative_url }}">
+      <img src="{{ '/assets/img/research-electrochemistry.jpg' | relative_url }}" alt="Electrochemistry">
       <div class="research-card-content">
-        <h3>RCI-LC-DFTB</h3>
+        <h3>Electrochemistry</h3>
+        <p><strong>Master’s Research</strong></p>
         <p>
-          A restriction-based configuration interaction approach based on LC-DFTB
-          for describing field-induced charge transfer in molecular systems.
+          Pt-based electrocatalysts and D-glucose oxidation reactions
+          for glucose fuel cells.
         </p>
       </div>
     </a>
 
-    <a class="card research-card" href="{{ '/research/gb-solvation/' | relative_url }}">
-      <img src="{{ '/assets/img/research-gb.jpg' | relative_url }}" alt="Generalized Born solvation">
+    <a class="card research-card" href="{{ '/research/theoretical-chemistry/' | relative_url }}">
+      <img src="{{ '/assets/img/research-theory.png' | relative_url }}" alt="Theoretical chemistry">
       <div class="research-card-content">
-        <h3>Solvation Effects</h3>
+        <h3>Theoretical Chemistry</h3>
+        <p><strong>Ph.D. Research</strong></p>
         <p>
-          Incorporation of the Generalized Born model into RCI-LC-DFTB to describe
-          photoinduced charge-separated states in solution.
+          Development of DFTB-based electronic-structure methods for charge-transfer
+          and charge-separated states in large molecular systems.
         </p>
       </div>
     </a>
 
-    <a class="card research-card" href="{{ '/research/ml-charges/' | relative_url }}">
-      <img src="{{ '/assets/img/research-ml.jpg' | relative_url }}" alt="Machine learning for quantum chemistry">
+    <a class="card research-card" href="{{ '/research/machine-learning/' | relative_url }}">
+      <img src="{{ '/assets/img/research-ml.png' | relative_url }}" alt="Machine learning">
       <div class="research-card-content">
         <h3>Machine Learning</h3>
+        <p><strong>Interest</strong></p>
         <p>
-          Machine-learning correction of DFTB Mulliken charges toward DFT-level
-          MBIS populations and electrostatic properties.
+          Machine-learning correction of quantum-chemical quantities,
+          including DFTB Mulliken charges toward DFT-level populations.
         </p>
       </div>
     </a>
@@ -88,28 +91,58 @@ title: Home
 <section class="section" id="publications">
   <h2>Publications</h2>
 
-  <ol class="publication-list">
-    <li>
-      <strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa.
-      “A Restriction-Based Configuration Interaction Approach Based on LC-DFTB:
-      An Efficient Method for Field-Induced Charge Transfer in Molecular Systems.”
-      <em>Journal of Chemical Theory and Computation</em>, 2025.
-    </li>
+  <div class="publication-list">
 
-    <li>
-      <strong>Ji Huang</strong> and co-workers.
-      “A minimal machine-learning correction of DFTB Mulliken charges towards
-      DFT-level MBIS populations.”
-      <em>Molecular Physics</em>.
-    </li>
+    <h3>Journal Articles</h3>
 
-    <li>
-      <strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa.
-      “Self-Consistent Incorporation of the Generalized Born Model into
-      RCI-LC-DFTB for Photoinduced Charge-Separated States.”
-      Preprint, ChemRxiv.
-    </li>
-  </ol>
+    <ol>
+      <li>
+        <strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa.
+        “<a href="https://doi.org/10.1021/acs.jctc.5c01371" target="_blank">
+        A Restriction-Based Configuration Interaction Approach Based on LC-DFTB:
+        An Efficient Method for Field-Induced Charge Transfer in Molecular Systems</a>.”
+        <em>Journal of Chemical Theory and Computation</em>,
+        <strong>21</strong>, 12592–12600, 2025.
+      </li>
+
+      <li>
+        <strong>Ji Huang</strong> and Jiali Chen.
+        “<a href="https://doi.org/10.1080/00268976.2026.2657600" target="_blank">
+        A minimal machine-learning correction of DFTB Mulliken charges towards
+        DFT-level MBIS populations</a>.”
+        <em>Molecular Physics</em>,
+        Article 2657600, 2026.
+      </li>
+
+      <li>
+        <strong>Ji Huang</strong>, Philipp Simons, Yusuke Sunada, Jennifer L. M. Rupp,
+        and Shunsuke Yagi.
+        “<a href="https://doi.org/10.1149/1945-7111/ac0949" target="_blank">
+        Pt-Catalyzed D-Glucose Oxidation Reactions for Glucose Fuel Cells</a>.”
+        <em>Journal of The Electrochemical Society</em>,
+        <strong>168</strong>, 064511, 2021.
+      </li>
+    </ol>
+
+    <h3>Conference Presentations</h3>
+
+    <ol>
+      <li>
+        <strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa.
+        “Extending DFTB for Charge Transfer Studies under an Electric Field.”
+        Poster presentation, Molecular Quantum Mechanics Conference (MQM),
+        Kyoto, Japan, May 24, 2025.
+      </li>
+
+      <li>
+        <strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa.
+        “Combining Non-orthogonal CI with SCC-DFTB for Field-Induced Charge Transfer Studies.”
+        Oral presentation (<strong>In Japanese</strong>), The 27th Annual Meeting of Theoretical Chemistry,
+        Fukuoka, Japan, July 24, 2025. 
+      </li>
+    </ol>
+
+  </div>
 </section>
 
 <section class="section" id="cv">
@@ -117,28 +150,43 @@ title: Home
 
   <div class="timeline">
     <div class="timeline-item">
-      <h3>Ph.D. Student</h3>
+      <h3>Ph.D. in Chemistry</h3>
       <p>
-        The University of Tokyo<br>
         Graduate School of Arts and Sciences<br>
-        2023 - Present
+        The University of Tokyo<br>
+        Apr. 2023 - Present
       </p>
     </div>
 
     <div class="timeline-item">
-      <h3>Computational Chemistry</h3>
+      <h3>Industry Experience</h3>
       <p>
-        Development of DFTB-based electronic-structure methods,
-        CI-like approaches, solvation models, and machine-learning corrections.
+        AESC Japan<br>
+        Sep. 2020 - Mar. 2023
       </p>
     </div>
 
     <div class="timeline-item">
-      <h3>Programming</h3>
+      <h3>Master’s Degree</h3>
       <p>
-        Fortran, Python, Bash, LaTeX, Git, Linux, and high-performance computing.
+        Department of Materials Engineering<br>
+        Graduate School of Engineering<br>
+        The University of Tokyo<br>
+        Sep. 2018 - Sep. 2020
       </p>
     </div>
+
+    <div class="timeline-item">
+      <h3>Bachelor’s Degree</h3>
+      <p>
+        Department of Chemistry<br>
+        Faculty of Science<br>
+        Wuhan University<br>
+        Sep. 2014 - Jun. 2018
+      </p>
+    </div>
+
+
   </div>
 </section>
 
