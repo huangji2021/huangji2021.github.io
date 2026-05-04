@@ -94,7 +94,7 @@ title: Theoretical Chemistry
   <h2>Related Publications</h2>
 
   <p>
-    Ji Huang, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa.
+    <strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa.
     “<a href="https://doi.org/10.1021/acs.jctc.5c01371" target="_blank">
     A Restriction-Based Configuration Interaction Approach Based on LC-DFTB:
     An Efficient Method for Field-Induced Charge Transfer in Molecular Systems</a>.”
@@ -103,9 +103,10 @@ title: Theoretical Chemistry
   </p>
 
   <p>
-    Ji Huang, Tim Kowalczyk, and Daisuke Yokogawa.
-    “Self-Consistent Incorporation of the Generalized Born Model into
-    RCI-LC-DFTB for Photoinduced Charge-Separated States.”
-    Preprint, ChemRxiv.
+    <strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa.
+    “<a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002660/v1" target="_blank">
+    Self-Consistent Incorporation of Generalized Born Model into RCI-LC-DFTB for
+    Photoinduced Charge-Separated States</a>.”
+    <em>ChemRxiv</em>, preprint, 2026.
   </p>
 </div>

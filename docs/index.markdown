@@ -96,13 +96,13 @@ title: Home
     <h3>Journal Articles</h3>
 
     <ol>
+
       <li>
-        <strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa.
-        “<a href="https://doi.org/10.1021/acs.jctc.5c01371" target="_blank">
-        A Restriction-Based Configuration Interaction Approach Based on LC-DFTB:
-        An Efficient Method for Field-Induced Charge Transfer in Molecular Systems</a>.”
-        <em>Journal of Chemical Theory and Computation</em>,
-        <strong>21</strong>, 12592–12600, 2025.
+        <strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa.
+        “<a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002660/v1" target="_blank">
+        Self-Consistent Incorporation of Generalized Born Model into RCI-LC-DFTB for
+        Photoinduced Charge-Separated States</a>.”
+        <em>ChemRxiv</em>, preprint, 2026.
       </li>
 
       <li>
@@ -112,6 +112,15 @@ title: Home
         DFT-level MBIS populations</a>.”
         <em>Molecular Physics</em>,
         Article 2657600, 2026.
+      </li>
+
+      <li>
+        <strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa.
+        “<a href="https://doi.org/10.1021/acs.jctc.5c01371" target="_blank">
+        A Restriction-Based Configuration Interaction Approach Based on LC-DFTB:
+        An Efficient Method for Field-Induced Charge Transfer in Molecular Systems</a>.”
+        <em>Journal of Chemical Theory and Computation</em>,
+        <strong>21</strong>, 12592–12600, 2025.
       </li>
 
       <li>
