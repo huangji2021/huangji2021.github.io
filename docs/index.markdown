@@ -7,7 +7,7 @@ title: Home
 
 <section class="hero" id="home">
   <div class="hero-inner">
-    <img class="profile-photo" src="{{ '/assets/img/profile2.png' | relative_url }}" alt="Ji Huang">
+    <img class="profile-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Ji Huang">
 
     <h1>Ji Huang</h1>
 
