@@ -164,7 +164,8 @@ title: Home
         Graduate School of Arts and Sciences<br>
         The University of Tokyo<br>
         Tokyo, Japan<br>
-        Apr. 2023 - Present
+        Apr. 2023 - Present<br>
+        Fellowship: The University of Tokyo Fellowship（東京大学フェローシップ）
       </p>
     </div>
 
@@ -184,7 +185,8 @@ title: Home
         Graduate School of Engineering<br>
         The University of Tokyo<br>
         Tokyo, Japan<br>
-        Sep. 2018 - Sep. 2020
+        Sep. 2018 - Sep. 2020<br>
+        Scholarship: Department of Materials Engineering Scholarship（マテリアル工学専攻奨学金）
       </p>
     </div>
 
