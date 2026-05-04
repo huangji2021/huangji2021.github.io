@@ -10,76 +10,54 @@ title: Machine Learning
 
   <h1>Machine Learning for Quantum Chemistry</h1>
 
-  <img src="{{ '/assets/img/research-ml.png' | relative_url }}" alt="Machine learning">
+  <img src="{{ '/assets/img/research-ml2.jpg' | relative_url }}" alt="Machine learning">
 
   <p>
-    I am interested in combining machine learning with quantum chemistry to improve
-    the accuracy, transferability, and usability of efficient electronic-structure
-    methods. My current interest is not to replace quantum-chemical calculations,
-    but to use machine learning as a lightweight correction or analysis layer on top
-    of physically motivated methods.
+    I am interested in using machine learning as a lightweight correction layer
+    for quantum-chemical methods. Rather than replacing electronic-structure
+    calculations, my goal is to combine physically motivated methods with
+    data-driven models to improve selected molecular properties.
   </p>
 
   <h2>Research Motivation</h2>
 
   <p>
-    DFTB is attractive because it enables efficient calculations for molecular systems
-    that are difficult to treat repeatedly with conventional DFT. However, some
-    quantities obtained from standard DFTB workflows, such as Mulliken charges, can
-    be sensitive to the basis representation and may deviate from density-based
-    charge definitions at the DFT level. This limits their direct use in quantitative
-    electrostatic analysis.
+    DFTB enables efficient calculations for large molecular systems, but some
+    derived quantities, such as Mulliken charges, may deviate from density-based
+    DFT-level charge definitions. This limits their use in quantitative electrostatic
+    analysis and motivates data-driven correction strategies.
   </p>
+
+  <h2>ML Correction of DFTB Charges</h2>
 
   <p>
-    Machine learning provides a practical way to improve such quantities while
-    preserving the computational efficiency of DFTB. Instead of modifying the DFTB
-    Hamiltonian or the self-consistent procedure, a trained model can be applied after
-    the quantum-chemical calculation to correct selected observables.
+    I developed a minimal machine-learning correction that maps DFTB Mulliken
+    charges toward DFT-level MBIS populations. The model uses atomic identity,
+    raw DFTB Mulliken charge, and local geometric descriptors as atom-wise features,
+    while enforcing exact molecular charge conservation after prediction.
   </p>
 
-  <h2>ML Correction of DFTB Mulliken Charges</h2>
-
-  <p>
-    In one project, I developed a minimal machine-learning correction that maps
-    DFTB Mulliken charges toward DFT-level MBIS populations. The model uses simple
-    atom-wise features, including atomic identity, raw DFTB Mulliken charge, and local
-    geometric descriptors. This design keeps the model lightweight and easy to combine
-    with existing DFTB workflows.
-  </p>
-
-  <p>
-    A key point of the method is charge conservation. After atom-wise prediction,
-    the molecular total charge is enforced by a uniform per-molecule shift. This
-    preserves the relative charge distribution predicted by the model while ensuring
-    that the final charges satisfy the required total molecular charge exactly.
-  </p>
-
-  <h2>Post-processing Philosophy</h2>
+  <h2>Key Feature</h2>
 
   <p>
     The correction is applied strictly as a post-processing step after DFTB
-    self-consistent convergence. It does not feed the corrected charges back into the
-    DFTB Hamiltonian, and therefore does not change the total energy, gradients, or
-    structural predictions. This separation is important because it keeps the physical
-    meaning and computational workflow clear: DFTB provides the electronic structure,
-    while machine learning improves selected derived quantities.
+    convergence. It does not feed corrected charges back into the DFTB Hamiltonian,
+    and therefore does not modify the total energy, gradients, or structural
+    predictions.
   </p>
 
   <h2>Broader Interest</h2>
 
   <p>
-    More broadly, I am interested in using machine learning to assist theoretical
-    chemistry in a controlled and interpretable way. Possible directions include
-    data-driven corrections for semi-empirical methods, automatic analysis of charge
-    transfer, efficient screening of molecular electronic properties, and machine
-    learning models that remain closely connected to physical descriptors.
+    More broadly, I am interested in interpretable machine-learning models for
+    semi-empirical quantum chemistry, automatic analysis of charge transfer, and
+    efficient screening of molecular electronic properties.
   </p>
 
   <h2>Related Publication</h2>
 
   <p>
-    Ji Huang and Jiali Chen.
+    <strong>Ji Huang</strong> and Jiali Chen.
     “<a href="https://doi.org/10.1080/00268976.2026.2657600" target="_blank">
     A minimal machine-learning correction of DFTB Mulliken charges towards
     DFT-level MBIS populations</a>.”

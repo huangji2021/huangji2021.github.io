@@ -7,7 +7,7 @@ title: Home
 
 <section class="hero" id="home">
   <div class="hero-inner">
-    <img class="profile-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Ji Huang">
+    <img class="profile-photo" src="{{ '/assets/img/profile2.png' | relative_url }}" alt="Ji Huang">
 
     <h1>Ji Huang</h1>
 
@@ -17,9 +17,9 @@ title: Home
     </p>
 
     <p>
-      My research focuses on efficient electronic-structure methods for charge-transfer
-      and charge-separated states in large molecular systems, especially LC-DFTB,
-      RCI-LC-DFTB, solvation effects, and machine-learning-assisted quantum chemistry.
+      I develop efficient quantum chemical methods for excited states and
+      charge-transfer processes. My recent work includes RCI-LC-DFTB, a
+      restriction-based configuration interaction approach built on LC-DFTB.
     </p>
 
     <div class="button-row">
@@ -36,7 +36,7 @@ title: Home
   <a href="#research">Research</a>
   <a href="#publications">Publications</a>
   <a href="#cv">CV</a>
-  <a href="#hobbies">Hobbies</a>
+  <a href="#additional">Additional</a>
 </nav>
 
 <section class="section" id="research">
@@ -159,10 +159,11 @@ title: Home
 
   <div class="timeline">
     <div class="timeline-item">
-      <h3>Ph.D. in Chemistry</h3>
+      <h3>Ph.D. Student in Chemistry</h3>
       <p>
         Graduate School of Arts and Sciences<br>
         The University of Tokyo<br>
+        Tokyo, Japan<br>
         Apr. 2023 - Present
       </p>
     </div>
@@ -171,7 +172,8 @@ title: Home
       <h3>Industry Experience</h3>
       <p>
         AESC Japan<br>
-        Sep. 2020 - Mar. 2023
+        Kanagawa, Japan<br>
+        Oct. 2020 - Mar. 2023
       </p>
     </div>
 
@@ -181,6 +183,7 @@ title: Home
         Department of Materials Engineering<br>
         Graduate School of Engineering<br>
         The University of Tokyo<br>
+        Tokyo, Japan<br>
         Sep. 2018 - Sep. 2020
       </p>
     </div>
@@ -189,42 +192,60 @@ title: Home
       <h3>Bachelor’s Degree</h3>
       <p>
         Department of Chemistry<br>
-        Faculty of Science<br>
         Wuhan University<br>
+        Wuhan, Hubei, China<br>
         Sep. 2014 - Jun. 2018
       </p>
     </div>
-
-
   </div>
 </section>
 
-<section class="section" id="hobbies">
-  <h2>Hobbies</h2>
+<section class="section" id="additional">
+  <h2>Additional Information</h2>
 
-  <div class="card-grid">
-    <div class="card">
-      <h3>Music</h3>
-      <p>
-        I enjoy energetic and uplifting music, especially songs that give motivation
-        during research and daily life.
-      </p>
-    </div>
+  <div class="publication-list">
 
-    <div class="card">
-      <h3>Travel</h3>
-      <p>
-        I enjoy traveling in Japan, visiting coastal areas, historical cities,
-        and quiet places with beautiful scenery.
-      </p>
-    </div>
+    <h3>Languages</h3>
+    <ul>
+      <li>Chinese: Native</li>
+      <li>Japanese: JLPT N1, full score; business-level proficiency</li>
+      <li>English: TOEIC 915</li>
+    </ul>
 
-    <div class="card">
-      <h3>Reading and Study</h3>
-      <p>
-        I enjoy reading books related to quantum chemistry, density functional theory,
-        programming, and scientific thinking.
-      </p>
-    </div>
+    <h3>Teaching and Professional Experience</h3>
+    <ul>
+      <li>
+        Teaching Assistant, The University of Tokyo, 2023 - 2025:
+        Information, Introduction to Algorithms, and First-Year Seminar.
+      </li>
+
+      <li>
+        Utelecon Supporter, The University of Tokyo, Nov. 2023 - Mar. 2025,
+        Remote: updated the Utelecon portal website and created new pages,
+        including pages for incoming students, system-specific guides, and
+        announcements.
+      </li>
+
+      <li>
+        Research Intern, Toyota Central R&amp;D Labs., Inc., Aug. 2024,
+        Nagakute, Aichi, Japan: investigated the optimal structure of fuel cell
+        electrodes through simulation.
+      </li>
+    </ul>
+
+    <h3>Interests</h3>
+    <ul>
+      <li>
+        Music: pop, rock, hip-hop, and R&amp;B, especially songs with strong
+        rhythms and memorable melodies.
+      </li>
+      <li>
+        Travel: coastal areas in Japan, especially Enoshima.
+      </li>
+      <li>
+        Electronic gadgets: mechanical keyboards, compact computers, and older PC components.
+      </li>
+    </ul>
+
   </div>
 </section>

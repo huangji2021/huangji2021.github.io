@@ -13,82 +13,52 @@ title: Theoretical Chemistry
   <img src="{{ '/assets/img/research-theory.png' | relative_url }}" alt="Theoretical chemistry">
 
   <p>
-    My Ph.D. research focuses on the development of efficient electronic-structure
-    methods for describing charge-transfer and charge-separated states in large
-    molecular systems. In particular, I work on extensions of density-functional
-    tight binding (DFTB), aiming to retain the efficiency of semi-empirical quantum
-    chemistry while improving its ability to describe electronic states with strong
-    charge localization or charge transfer.
+    My Ph.D. research focuses on developing efficient electronic-structure methods
+    for charge-transfer and charge-separated states in large molecular systems.
+    I mainly work on extensions of density-functional tight binding (DFTB), aiming
+    to retain its computational efficiency while improving its ability to describe
+    strongly charge-localized electronic states.
   </p>
 
   <h2>Research Motivation</h2>
 
   <p>
-    Charge transfer is a key process in molecular electronics, molecular wires,
-    donor--bridge--acceptor systems, and photoactive molecular materials. However,
-    accurately describing one-electron transfer remains difficult for standard
-    electronic-structure methods. Conventional approximate DFT may suffer from
-    self-interaction error and insufficient static correlation, while standard DFTB
-    inherits many of these limitations because it is designed as an efficient
-    approximation to DFT.
-  </p>
-
-  <p>
-    Long-range corrected DFTB improves the description of long-range charge-transfer
-    phenomena, but it is still not enough when one needs to explicitly describe
-    charge-localized configurations and their mixing. This motivated me to develop
-    an extended DFTB-based framework that can treat different charge-localized states
-    and their interactions in a more physically transparent way.
+    Charge transfer is central to molecular wires, donor-bridge-acceptor systems,
+    and photoactive molecular materials. However, standard DFT and DFTB often have
+    difficulties in describing one-electron transfer because of self-interaction error
+    and insufficient treatment of static correlation. This motivated me to develop
+    a DFTB-based framework that can explicitly handle charge-localized states and
+    their electronic coupling.
   </p>
 
   <h2>RCI-LC-DFTB</h2>
 
   <p>
-    I developed a restriction-based configuration interaction approach based on
-    LC-DFTB, abbreviated as RCI-LC-DFTB. The basic idea is to generate several
-    charge-localized single-determinant configurations by applying charge restrictions
-    to selected molecular fragments. These configurations are then used as a
-    non-orthogonal diabatic-like basis and mixed through a CI-like generalized
-    eigenvalue problem.
-  </p>
-
-  <p>
-    Instead of imposing hard charge constraints with Lagrange multipliers, the method
-    uses a penalty-function approach. This makes the implementation relatively simple
-    and flexible, because the charge distribution can be guided toward a target value
-    without introducing another layer of self-consistent optimization. The resulting
-    configurations represent physically meaningful charge-localized states, while the
-    CI step recovers their electronic coupling and resonance.
+    I developed RCI-LC-DFTB, a restriction-based configuration interaction approach
+    built on LC-DFTB. The method generates charge-localized configurations by applying
+    fragment charge restrictions, and then mixes these non-orthogonal configurations
+    through a CI-like generalized eigenvalue problem. This provides an efficient way
+    to describe charge localization, charge resonance, and state mixing in large systems.
   </p>
 
   <h2>External Electric Field</h2>
 
   <p>
-    One important application of this framework is the study of field-induced charge
-    transfer. External electric fields are introduced at the CI level, which allows the
-    method to describe how charge localization, electron transfer, and state mixing
-    change under an applied bias. This is particularly useful for molecular wires,
-    molecular switches, and other systems where charge redistribution is controlled
-    by an external field.
+    External electric fields are introduced at the CI level, enabling direct observation
+    of field-induced single-electron transfer between molecular fragments. Importantly,
+    this is achieved through charge-localized configuration mixing, without relying on
+    spin-symmetry breaking or introducing spin contamination.
   </p>
 
   <h2>Solvation and Charge-Separated States</h2>
 
   <p>
-    I am currently extending this framework to photoinduced charge-separated states
-    in solution. Charge-separated states are often strongly stabilized by polar
-    solvents, so solvation effects are essential for realistic modeling. To address this
-    issue, I incorporate a Generalized Born solvation model into RCI-LC-DFTB and
-    solve the electronic state and solvent response self-consistently for target states.
-  </p>
-
-  <p>
-    This direction is motivated by the fact that my main scientific target is not
-    solvation itself, but charge-separated states. Solvation is introduced because
-    charge-separated states in real molecular systems are usually formed and observed
-    in solution. The goal is to establish an efficient method that can describe large
-    donor--bridge--acceptor systems while retaining an electronic-structure picture
-    of charge localization, state mixing, and solvent stabilization.
+    I am extending this framework to photoinduced charge-separated states in solution
+    by incorporating a Generalized Born solvation model into RCI-LC-DFTB. Since
+    charge-separated states are strongly stabilized by polar solvents, this extension
+    aims to describe realistic donor-bridge-acceptor systems while retaining a clear
+    electronic-structure picture of charge localization, state mixing, and solvent
+    stabilization.
   </p>
 
   <h2>Related Publications</h2>
