@@ -162,22 +162,12 @@ lang: en
 
   <div class="timeline">
     <div class="timeline-item">
-      <h3>Ph.D. Student</h3>
+      <h3>Bachelor’s Degree</h3>
       <p>
-        Graduate School of Arts and Sciences<br>
-        The University of Tokyo<br>
-        Tokyo, Japan<br>
-        Apr. 2023 - Present<br>
-        Fellowship: The University of Tokyo Fellowship（東京大学フェローシップ）
-      </p>
-    </div>
-
-    <div class="timeline-item">
-      <h3>Industry Experience</h3>
-      <p>
-        Process Engineer, AESC Japan<br>
-        Kanagawa, Japan<br>
-        Oct. 2020 - Mar. 2023
+        Department of Chemistry (Hongyi Honor College Chemistry Program)<br>
+        Wuhan University<br>
+        Wuhan, Hubei, China<br>
+        Sep. 2014 - Jun. 2018
       </p>
     </div>
 
@@ -194,12 +184,22 @@ lang: en
     </div>
 
     <div class="timeline-item">
-      <h3>Bachelor’s Degree</h3>
+      <h3>Industry Experience</h3>
       <p>
-        Department of Chemistry (Hongyi Honor College Chemistry Program)<br>
-        Wuhan University<br>
-        Wuhan, Hubei, China<br>
-        Sep. 2014 - Jun. 2018
+        Process Engineer, AESC Japan<br>
+        Kanagawa, Japan<br>
+        Oct. 2020 - Mar. 2023
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>Ph.D. Student</h3>
+      <p>
+        Graduate School of Arts and Sciences<br>
+        The University of Tokyo<br>
+        Tokyo, Japan<br>
+        Apr. 2023 - Present<br>
+        Fellowship: The University of Tokyo Fellowship（東京大学フェローシップ）
       </p>
     </div>
   </div>
@@ -221,7 +221,7 @@ lang: en
     <ul>
       <li>
         Teaching Assistant, The University of Tokyo, 2023 - 2025:
-        《Computer Basics》, 《Introduction to Algorithms》, and 《First-Year Seminar》.
+        《Information》, 《Introduction to Algorithms》, and 《First-Year Seminar》.
       </li>
 
       <li>

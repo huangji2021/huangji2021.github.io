@@ -63,10 +63,10 @@ permalink: /ja/
 <section class="section" id="cv">
   <h2>経歴</h2>
   <div class="timeline">
-    <div class="timeline-item"><h3>博士課程</h3><p>東京大学大学院 総合文化研究科<br>東京、日本<br>2023年4月－現在<br>奨学金：東京大学フェローシップ</p></div>
-    <div class="timeline-item"><h3>企業勤務</h3><p>Process Engineer、AESC Japan<br>神奈川、日本<br>2020年10月－2023年3月</p></div>
-    <div class="timeline-item"><h3>修士課程</h3><p>東京大学大学院 工学系研究科 マテリアル工学専攻<br>東京、日本<br>2018年9月－2020年9月<br>奨学金：マテリアル工学専攻奨学金</p></div>
     <div class="timeline-item"><h3>学士課程</h3><p>武漢大学 化学系（弘毅学堂化学班）<br>中国・湖北省武漢市<br>2014年9月－2018年6月</p></div>
+    <div class="timeline-item"><h3>修士課程</h3><p>東京大学大学院 工学系研究科 マテリアル工学専攻<br>東京、日本<br>2018年9月－2020年9月<br>奨学金：マテリアル工学専攻奨学金</p></div>
+    <div class="timeline-item"><h3>企業勤務</h3><p>Process Engineer、AESC Japan<br>神奈川、日本<br>2020年10月－2023年3月</p></div>
+    <div class="timeline-item"><h3>博士課程</h3><p>東京大学大学院 総合文化研究科<br>東京、日本<br>2023年4月－現在<br>奨学金：東京大学フェローシップ</p></div>
   </div>
 </section>
 
@@ -76,7 +76,7 @@ permalink: /ja/
     <h3>言語</h3><ul><li>中国語：母語</li><li>日本語：JLPT N1 満点、ビジネスレベル</li><li>英語：TOEIC 915</li></ul>
     <h3>教育・職務経験</h3>
     <ul>
-      <li>東京大学ティーチング・アシスタント、2023－2025年：《コンピューター基礎》《アルゴリズム入門》《初年次ゼミナール》。</li>
+      <li>東京大学ティーチング・アシスタント、2023－2025年：《情報》《アルゴリズム入門》《初年次ゼミナール》。</li>
       <li>東京大学 Utelecon サポーター、2023年11月－2025年3月、リモート：Utelecon ポータルの更新、新入生向けページ、システム別ガイド、告知ページなどの作成。</li>
       <li>株式会社豊田中央研究所 研究インターン、2024年8月、愛知県長久手市：シミュレーションによる燃料電池電極の最適構造の検討。</li>
     </ul>

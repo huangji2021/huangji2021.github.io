@@ -11,6 +11,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -31,10 +32,9 @@ html {
 }
 
 .language-panel {
-  position: fixed;
-  top: 18px;
-  right: 20px;
-  z-index: 60;
+  position: relative;
+  z-index: 2;
+  width: fit-content;
   padding: 10px 12px 9px;
   border: 1px solid rgba(49, 90, 111, 0.16);
   border-radius: 14px;
@@ -42,6 +42,31 @@ html {
   box-shadow: 0 10px 30px rgba(24, 49, 61, 0.08);
   backdrop-filter: blur(12px);
   text-align: center;
+}
+
+.hero .language-panel {
+  position: absolute;
+  top: 112px;
+  right: clamp(24px, 5vw, 88px);
+  left: auto;
+  margin: 0;
+}
+
+.hero .update-panel {
+  padding: 9px 13px;
+  box-shadow: 0 8px 24px rgba(24, 49, 61, 0.06);
+}
+
+.hero .update-panel .updated-date {
+  margin: 0;
+  padding: 0;
+  border-top: 0;
+  line-height: 1.45;
+}
+
+.simple-page .language-panel {
+  float: right;
+  margin: 0 0 24px 24px;
 }
 
 .language-links {
@@ -250,18 +275,24 @@ a:hover {
   backdrop-filter: blur(12px);
   z-index: 50;
   text-align: center;
-  padding: 20px 300px 20px 24px;
+  padding: 20px 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 8px 28px rgba(24, 49, 61, 0.04);
 }
 
-.navbar a {
+.section-nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-nav-links a {
   position: relative;
   margin: 0 18px;
   font-size: 16px;
 }
 
-.navbar a::after {
+.section-nav-links a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -273,15 +304,33 @@ a:hover {
   transition: transform 0.25s ease;
 }
 
-.navbar a:hover,
-.navbar a.is-active {
+.section-nav-links a:hover,
+.section-nav-links a.is-active {
   color: #315a6f;
   text-decoration: none;
 }
 
-.navbar a:hover::after,
-.navbar a.is-active::after {
+.section-nav-links a:hover::after,
+.section-nav-links a.is-active::after {
   transform: scaleX(1);
+}
+
+.language-switcher {
+  position: absolute;
+  top: 50%;
+  right: clamp(16px, 4vw, 64px);
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.language-switcher a {
+  font-size: 13px;
+}
+
+.language-switcher.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(12px, -50%);
 }
 
 .section {
@@ -571,8 +620,9 @@ li {
   .timeline-item,
   .timeline-item:nth-child(odd),
   .timeline-item:nth-child(even) {
-    width: auto;
+    width: calc(100% - 28px);
     margin-left: 28px;
+    margin-right: 0;
     text-align: left;
   }
 
@@ -606,17 +656,49 @@ li {
     white-space: nowrap;
   }
 
-  .navbar a {
+  .section-nav-links a {
     margin: 0 10px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 980px) {
+  .navbar {
+    justify-content: flex-start;
+  }
+
+  .section-nav-links {
+    width: calc(100% - 132px);
+    overflow-x: auto;
+    justify-content: flex-start;
+    scrollbar-width: none;
+  }
+
+  .section-nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .language-switcher {
+    right: 8px;
+  }
+}
+
+@media (max-width: 760px) {
   .language-panel {
-    position: fixed;
-    top: 12px;
-    right: 12px;
     padding: 8px 9px 7px;
+  }
+
+  .hero .language-panel {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    order: -1;
+    margin: 0 auto 28px;
+  }
+
+  .simple-page .language-panel {
+    float: none;
+    margin: 0 0 28px;
   }
 
   .language-links a {
@@ -629,26 +711,32 @@ li {
   }
 
   .hero {
-    padding-top: 165px;
-    scroll-margin-top: 126px;
+    flex-direction: column;
+    padding-top: 110px;
+    scroll-margin-top: 76px;
   }
 
   .section {
-    scroll-margin-top: 126px;
+    scroll-margin-top: 76px;
   }
 
   .simple-page {
-    padding-top: 130px;
+    padding-top: 105px;
   }
 
   .navbar {
-    min-height: 126px;
-    align-items: flex-end;
+    min-height: 72px;
+    align-items: center;
     justify-content: flex-start;
-    padding: 86px 8px 14px;
+    overflow: hidden;
+    padding: 14px 8px;
   }
 
-  .navbar a {
+  .section-nav-links {
+    width: calc(100% - 166px);
+  }
+
+  .section-nav-links a {
     flex: 0 0 auto;
   }
 }

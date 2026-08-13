@@ -21,13 +21,42 @@
   var languagePanel = document.createElement("aside");
   languagePanel.className = "language-panel";
   languagePanel.setAttribute("aria-label", labels[locale].aria);
-  languagePanel.innerHTML =
-    '<nav class="language-links">' +
+  var languageLinksHtml =
       '<a lang="zh-CN" href="' + localeUrl("zh") + '"' + (locale === "zh" ? ' aria-current="page"' : "") + '>中文</a>' +
       '<a lang="en" href="' + localeUrl("en") + '"' + (locale === "en" ? ' aria-current="page"' : "") + '>English</a>' +
-      '<a lang="ja" href="' + localeUrl("ja") + '"' + (locale === "ja" ? ' aria-current="page"' : "") + '>日本語</a>' +
-    '</nav><p class="updated-date">' + labels[locale].updated + "</p>";
-  body.appendChild(languagePanel);
+      '<a lang="ja" href="' + localeUrl("ja") + '"' + (locale === "ja" ? ' aria-current="page"' : "") + '>日本語</a>';
+  var hero = document.querySelector(".hero");
+  var detailPage = document.querySelector(".simple-page");
+  var navbar = document.querySelector(".navbar");
+  var languageSwitcher = null;
+
+  if (hero && navbar) {
+    languagePanel.classList.add("update-panel");
+    languagePanel.innerHTML = '<p class="updated-date">' + labels[locale].updated + "</p>";
+    hero.insertBefore(languagePanel, hero.firstElementChild);
+
+    var sectionNavLinks = document.createElement("div");
+    sectionNavLinks.className = "section-nav-links";
+    var sectionLinkElements = Array.prototype.slice.call(navbar.children).filter(function (child) {
+      return child.matches("a[href^='#']");
+    });
+    navbar.insertBefore(sectionNavLinks, sectionLinkElements[0]);
+    sectionLinkElements.forEach(function (link) { sectionNavLinks.appendChild(link); });
+
+    languageSwitcher = document.createElement("nav");
+    languageSwitcher.className = "language-links language-switcher";
+    languageSwitcher.setAttribute("aria-label", labels[locale].aria);
+    languageSwitcher.innerHTML = languageLinksHtml;
+    navbar.appendChild(languageSwitcher);
+  } else if (detailPage) {
+    languagePanel.innerHTML = '<nav class="language-links">' + languageLinksHtml +
+      '</nav><p class="updated-date">' + labels[locale].updated + "</p>";
+    detailPage.insertBefore(languagePanel, detailPage.firstElementChild);
+  } else {
+    languagePanel.innerHTML = '<nav class="language-links">' + languageLinksHtml +
+      '</nav><p class="updated-date">' + labels[locale].updated + "</p>";
+    body.insertBefore(languagePanel, body.firstChild);
+  }
 
   body.classList.add("motion-ready");
 
@@ -51,6 +80,9 @@
     var scrollable = document.documentElement.scrollHeight - window.innerHeight;
     var ratio = scrollable > 0 ? window.scrollY / scrollable : 0;
     progress.style.transform = "scaleX(" + Math.min(1, Math.max(0, ratio)) + ")";
+    if (languageSwitcher) {
+      languageSwitcher.classList.toggle("is-hidden", window.scrollY > 80);
+    }
   }
 
   updateProgress();
@@ -58,6 +90,7 @@
   window.addEventListener("resize", updateProgress);
 
   var selectors = [
+    ".hero > .language-panel",
     ".hero-inner > *",
     ".section > h2",
     ".section > .lead",

@@ -92,20 +92,20 @@ permalink: /zh/
   <h2>学习与工作经历</h2>
   <div class="timeline">
     <div class="timeline-item">
-      <h3>博士研究生</h3>
-      <p>东京大学 综合文化研究科<br>日本东京<br>2023年4月－至今<br>奖学金：东京大学 Fellowship（東京大学フェローシップ）</p>
-    </div>
-    <div class="timeline-item">
-      <h3>企业工作经历</h3>
-      <p>Process Engineer，AESC Japan<br>日本神奈川<br>2020年10月－2023年3月</p>
+      <h3>学士</h3>
+      <p>武汉大学 化学系（弘毅学堂化学班）<br>中国湖北武汉<br>2014年9月－2018年6月</p>
     </div>
     <div class="timeline-item">
       <h3>硕士</h3>
       <p>东京大学 工学系研究科 材料工学专攻<br>日本东京<br>2018年9月－2020年9月<br>奖学金：材料工学专攻奖学金（マテリアル工学専攻奨学金）</p>
     </div>
     <div class="timeline-item">
-      <h3>学士</h3>
-      <p>武汉大学 化学系（弘毅学堂化学班）<br>中国湖北武汉<br>2014年9月－2018年6月</p>
+      <h3>企业工作经历</h3>
+      <p>Process Engineer，AESC Japan<br>日本神奈川<br>2020年10月－2023年3月</p>
+    </div>
+    <div class="timeline-item">
+      <h3>博士研究生</h3>
+      <p>东京大学 综合文化研究科<br>日本东京<br>2023年4月－至今<br>奖学金：东京大学 Fellowship（東京大学フェローシップ）</p>
     </div>
   </div>
 </section>
