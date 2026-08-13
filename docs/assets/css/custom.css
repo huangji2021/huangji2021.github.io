@@ -706,12 +706,12 @@ li {
 
   .hero {
     flex-direction: column;
-    padding-top: 110px;
-    scroll-margin-top: 76px;
+    padding-top: 124px;
+    scroll-margin-top: 104px;
   }
 
   .section {
-    scroll-margin-top: 76px;
+    scroll-margin-top: 104px;
   }
 
   .simple-page {
@@ -719,19 +719,32 @@ li {
   }
 
   .navbar {
-    min-height: 72px;
+    min-height: 96px;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    gap: 8px;
     overflow: hidden;
-    padding: 14px 8px;
+    padding: 10px 8px 9px;
   }
 
   .section-nav-links {
-    width: calc(100% - 166px);
+    width: 100%;
+    justify-content: center;
   }
 
   .section-nav-links a {
     flex: 0 0 auto;
+    margin: 0 8px;
+    font-size: 14px;
+  }
+
+  .language-switcher {
+    position: static;
+    top: auto;
+    right: auto;
+    flex: 0 0 auto;
+    transform: none;
   }
 }
 
