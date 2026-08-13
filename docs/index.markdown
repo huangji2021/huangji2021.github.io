@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+lang: en
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
@@ -9,7 +10,7 @@ title: Home
   <div class="hero-inner">
     <img class="profile-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Ji Huang">
 
-    <h1>Ji Huang</h1>
+    <h1>Ji Huang <span class="name-reading">(Huang Ji)</span></h1>
 
     <p>
       Ph.D. student in computational and theoretical chemistry<br>
@@ -17,9 +18,9 @@ title: Home
     </p>
 
     <p>
-      I develop efficient quantum chemical methods for excited states and
-      charge-transfer processes. My recent work includes RCI-LC-DFTB, a
-      restriction-based configuration interaction approach built on LC-DFTB.
+      I am drawn to methods that do more with less: keeping calculations affordable
+      without losing the physics that matters. My doctoral research develops compact,
+      interpretable quantum chemical models of charge transfer in large molecular systems.
     </p>
 
     <div class="button-row">
@@ -30,6 +31,8 @@ title: Home
     </div>
   </div>
 </section>
+
+<script src="{{ '/assets/js/animations.js' | relative_url }}" defer></script>
 
 <nav class="navbar">
   <a href="#home">Home</a>
@@ -56,8 +59,8 @@ title: Home
         <h3>Electrochemistry</h3>
         <p><strong>Master’s Research</strong></p>
         <p>
-          Pt-based electrocatalysts and D-glucose oxidation reactions
-          for glucose fuel cells.
+          D-glucose oxidation pathways on Pt-based catalysts and Pt-Pd anode design
+          for glucose fuel cells in neutral electrolytes.
         </p>
       </div>
     </a>
@@ -68,8 +71,8 @@ title: Home
         <h3>Theoretical Chemistry</h3>
         <p><strong>Ph.D. Research</strong></p>
         <p>
-          Development of DFTB-based electronic-structure methods for charge-transfer
-          and charge-separated states in large molecular systems.
+          Compact diabatic-state models for charge localization and transfer in large
+          molecular systems, including environmental effects and automated basis construction.
         </p>
       </div>
     </a>
@@ -159,7 +162,7 @@ title: Home
 
   <div class="timeline">
     <div class="timeline-item">
-      <h3>Ph.D. Student in Chemistry</h3>
+      <h3>Ph.D. Student</h3>
       <p>
         Graduate School of Arts and Sciences<br>
         The University of Tokyo<br>
@@ -172,7 +175,7 @@ title: Home
     <div class="timeline-item">
       <h3>Industry Experience</h3>
       <p>
-        AESC Japan<br>
+        Process Engineer, AESC Japan<br>
         Kanagawa, Japan<br>
         Oct. 2020 - Mar. 2023
       </p>
@@ -193,7 +196,7 @@ title: Home
     <div class="timeline-item">
       <h3>Bachelor’s Degree</h3>
       <p>
-        Department of Chemistry<br>
+        Department of Chemistry (Hongyi Honor College Chemistry Program)<br>
         Wuhan University<br>
         Wuhan, Hubei, China<br>
         Sep. 2014 - Jun. 2018
@@ -218,7 +221,7 @@ title: Home
     <ul>
       <li>
         Teaching Assistant, The University of Tokyo, 2023 - 2025:
-        Information, Introduction to Algorithms, and First-Year Seminar.
+        《Computer Basics》, 《Introduction to Algorithms》, and 《First-Year Seminar》.
       </li>
 
       <li>
@@ -245,7 +248,7 @@ title: Home
         Travel: coastal areas in Japan, especially Enoshima.
       </li>
       <li>
-        Electronic gadgets: mechanical keyboards, compact computers, and older PC components.
+        Electronic gadgets: mechanical keyboards and older PC components.
       </li>
     </ul>
 
