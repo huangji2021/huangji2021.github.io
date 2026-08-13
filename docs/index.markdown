@@ -99,10 +99,10 @@ title: Home
 
       <li>
         <strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa.
-        “<a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002660/v1" target="_blank">
+        “<a href="https://doi.org/10.1021/acs.jctc.6c00916" target="_blank">
         Self-Consistent Incorporation of Generalized Born Model into RCI-LC-DFTB for
         Photoinduced Charge-Separated States</a>.”
-        <em>ChemRxiv</em>, preprint, 2026.
+        <em>Journal of Chemical Theory and Computation</em>, 2026.
       </li>
 
       <li>
