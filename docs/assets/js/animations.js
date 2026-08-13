@@ -80,9 +80,6 @@
     var scrollable = document.documentElement.scrollHeight - window.innerHeight;
     var ratio = scrollable > 0 ? window.scrollY / scrollable : 0;
     progress.style.transform = "scaleX(" + Math.min(1, Math.max(0, ratio)) + ")";
-    if (languageSwitcher) {
-      languageSwitcher.classList.toggle("is-hidden", window.scrollY > 80);
-    }
   }
 
   updateProgress();

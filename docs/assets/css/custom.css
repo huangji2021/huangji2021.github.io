@@ -327,12 +327,6 @@ a:hover {
   font-size: 13px;
 }
 
-.language-switcher.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  transform: translate(12px, -50%);
-}
-
 .section {
   padding: 90px 7vw;
   max-width: 1300px;
