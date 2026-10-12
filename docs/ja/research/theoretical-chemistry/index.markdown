@@ -25,6 +25,8 @@ permalink: /ja/research/theoretical-chemistry/
   <p>これらの研究では、コンパクトで物理的に解釈できる透熱状態を基礎とし、溶媒環境や分子構造の情報を段階的に加えることで、より大きく複雑な分子材料を扱えるようにしています。</p>
   <h2>関連論文</h2>
   <p><strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa. “<a href="https://doi.org/10.1021/acs.jctc.5c01371" target="_blank">A Restriction-Based Configuration Interaction Approach Based on LC-DFTB: An Efficient Method for Field-Induced Charge Transfer in Molecular Systems</a>.” <em>Journal of Chemical Theory and Computation</em>, <strong>21</strong>, 12592–12600, 2025.</p>
-  <p><strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa. “<a href="https://doi.org/10.1021/acs.jctc.6c00916" target="_blank">Self-Consistent Incorporation of Generalized Born Model into RCI-LC-DFTB for Photoinduced Charge-Separated States</a>.” <em>Journal of Chemical Theory and Computation</em>, 2026.</p>
+  <p><strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa. “<a href="https://doi.org/10.1021/acs.jctc.6c00916" target="_blank">Self-Consistent Incorporation of Generalized Born Model into RCI-LC-DFTB for Photoinduced Charge-Separated States</a>.” <em>Journal of Chemical Theory and Computation</em>, <strong>22</strong> (16), 8307–8314, 2026.</p>
+  <h3>プレプリント</h3>
+  <p><strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa. “<a href="https://doi.org/10.26434/chemrxiv.15008502/v1" target="_blank">Clustered Graph Partitions Provide Compact Diabatic Bases for RCI-LC-DFTB Charge-Transfer Calculations</a>.” <em>ChemRxiv</em>、第 1 版、2026（プレプリント）。</p>
 </div>
 <script src="{{ '/assets/js/animations.js' | relative_url }}" defer></script>

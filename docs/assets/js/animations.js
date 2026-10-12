@@ -13,9 +13,9 @@
   }
 
   var labels = {
-    en: { updated: "Last updated: Aug. 13, 2026", aria: "Choose language" },
-    zh: { updated: "主页更新：2026年8月13日", aria: "选择语言" },
-    ja: { updated: "最終更新：2026年8月13日", aria: "言語を選択" }
+    en: { updated: "Last updated: Oct. 12, 2026", aria: "Choose language" },
+    zh: { updated: "主页更新：2026年10月12日", aria: "选择语言" },
+    ja: { updated: "最終更新：2026年10月12日", aria: "言語を選択" }
   };
 
   var languagePanel = document.createElement("aside");

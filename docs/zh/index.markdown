@@ -75,10 +75,14 @@ permalink: /zh/
   <div class="publication-list">
     <h3>期刊论文</h3>
     <ol>
-      <li><strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa. “<a href="https://doi.org/10.1021/acs.jctc.6c00916" target="_blank">Self-Consistent Incorporation of Generalized Born Model into RCI-LC-DFTB for Photoinduced Charge-Separated States</a>.” <em>Journal of Chemical Theory and Computation</em>, 2026.</li>
+      <li><strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa. “<a href="https://doi.org/10.1021/acs.jctc.6c00916" target="_blank">Self-Consistent Incorporation of Generalized Born Model into RCI-LC-DFTB for Photoinduced Charge-Separated States</a>.” <em>Journal of Chemical Theory and Computation</em>, <strong>22</strong> (16), 8307–8314, 2026.</li>
       <li><strong>Ji Huang</strong> and Jiali Chen. “<a href="https://doi.org/10.1080/00268976.2026.2657600" target="_blank">A minimal machine-learning correction of DFTB Mulliken charges towards DFT-level MBIS populations</a>.” <em>Molecular Physics</em>, Article 2657600, 2026.</li>
       <li><strong>Ji Huang</strong>, Tim Kowalczyk, Yoshio Nishimoto, and Daisuke Yokogawa. “<a href="https://doi.org/10.1021/acs.jctc.5c01371" target="_blank">A Restriction-Based Configuration Interaction Approach Based on LC-DFTB: An Efficient Method for Field-Induced Charge Transfer in Molecular Systems</a>.” <em>Journal of Chemical Theory and Computation</em>, <strong>21</strong>, 12592–12600, 2025.</li>
       <li><strong>Ji Huang</strong>, Philipp Simons, Yusuke Sunada, Jennifer L. M. Rupp, and Shunsuke Yagi. “<a href="https://doi.org/10.1149/1945-7111/ac0949" target="_blank">Pt-Catalyzed D-Glucose Oxidation Reactions for Glucose Fuel Cells</a>.” <em>Journal of The Electrochemical Society</em>, <strong>168</strong>, 064511, 2021.</li>
+    </ol>
+    <h3>预印本</h3>
+    <ol>
+      <li><strong>Ji Huang</strong>, Tim Kowalczyk, and Daisuke Yokogawa. “<a href="https://doi.org/10.26434/chemrxiv.15008502/v1" target="_blank">Clustered Graph Partitions Provide Compact Diabatic Bases for RCI-LC-DFTB Charge-Transfer Calculations</a>.” <em>ChemRxiv</em>，第 1 版，2026（预印本）。</li>
     </ol>
     <h3>学术会议报告</h3>
     <ol>
